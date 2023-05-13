@@ -75,7 +75,7 @@ const Modal = ({isShowForm,
           p-1' id='image_url' type="text" 
           { ...register("image_url", {
             pattern: {
-              value: /(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png|jpeg)/,
+              value: /(http(s?):)([/|.|\w|\s|-])*\.(?:gif|png|jpeg|)/,
               message: "Formato de URL no válida"
             }
           })}/>
